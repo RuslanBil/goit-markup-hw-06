@@ -923,6 +923,7 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   min-width: 528px;
   min-height: 581px;
   background-color: #fff;
@@ -971,7 +972,6 @@ ul {
 .form {
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
 }
 .modal-title {
   margin-bottom: 12px;
@@ -1064,6 +1064,10 @@ ul {
   -webkit-box-pack: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+.checkbox-label:focus {
+  /* background-color: var(--btn-hover-color); */
+  border: #188ce8;
 }
 .checkbox {
   position: absolute;
